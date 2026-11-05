@@ -1,0 +1,26 @@
+{
+  "threshold": 0.5667,
+  "test_precision": 0.9,
+  "test_recall": 0.7941,
+  "test_f1": 0.8438,
+  "test_pr_auc": 0.8375,
+  "n_train": 8000,
+  "n_test": 2000,
+  "n_test_failures": 68,
+  "sklearn_version": "1.9.1",
+  "python_version": "3.14.6",
+  "train_feature_means": {
+    "air_temp": 300.0054,
+    "process_temp": 310.0061,
+    "rpm": 1539.3569,
+    "torque": 40.0034,
+    "tool_wear": 107.685
+  },
+  "train_feature_stds": {
+    "air_temp": 1.9968,
+    "process_temp": 1.4794,
+    "rpm": 180.9829,
+    "torque": 10.0195,
+    "tool_wear": 63.612
+  }
+}
